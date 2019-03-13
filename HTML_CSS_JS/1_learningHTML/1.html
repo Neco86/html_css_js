@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+  <form method="post" action="http://example.com/form">
+    <p>
+      <label for="name"> Name: <input placeholder="Your name"
+        id="name" name="name" />
+      </label>
+    </p>
+    <p>
+      <label for="city"> City: <input placeholder="Where you  live"
+        id="city" name="city" />
+      </label>
+    </p>
+    <p>
+      <label for="fave"> Fruit: <input list="fruitlist" id="fave"
+        name="fave" />
+      </label>
+    </p>
+    <button type="submit">Submit Vote</button>
+  </form>
+
+  <datalist id="fruitlist">
+    <option value="A" label="First" />
+    <option value="B">Second</option>
+    <option value="C"/>
+  </datalist>
+
+</body>
+</html>

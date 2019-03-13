@@ -1,0 +1,21 @@
+[title]{color:blue;}
+/* 选择有title属性的 */
+[title=w3cschool]{border:5px solid green;}
+/* 选择title属性为w3cschool */
+[title~=hello] { color:blue; }
+/* 选择title包含hello的 */
+[lang|=en] { color:blue; }
+/* 选择lang以en开头的 */
+input[type="text"]
+{
+width:150px;
+display:block;
+margin-bottom:10px;
+background-color:yellow;
+}
+input[type="button"]
+{
+width:120px;
+margin-left:35px;
+display:block;
+}

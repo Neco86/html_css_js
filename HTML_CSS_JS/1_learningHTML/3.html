@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    Name:<input type="text" name="name"><br>
+    Age:<input type="text" name="age">
+  </form>
+  <form action="get">
+    Username: <input type="text" name="user"><br>
+    Password: <input type="password" name="password">
+  </form>
+  <form>
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="sex" id="female">
+  </form>
+  <form>
+    <label for="Bike">I have a bike</label>
+    <input type="checkbox" name="vehicle" id="Bike">
+    <label for="Car">I have a car</label>
+    <input type="checkbox" name="vehicle" id="Car">
+  </form>
+  <form name="input" action="www.w3cschool.cn/statics/demosource/html_form_action.php" method="get">
+    Username: <input type="text" name="user">
+    <input type="submit" value="Submit">
+  </form>
+  <form action="">
+    <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat" selected>Fiat</option>
+    <option value="audi">Audi</option>
+    </select>
+  </form>
+  <textarea rows="10" cols="30">
+    我是一个文本框。
+  </textarea>
+  <form action="">
+    <input type="button" value="Hello world!">
+    <input type="reset" value="Reset">
+  </form>
+  <form action="">
+    <fieldset>
+      <legend>Personal information:</legend>
+      Name: <input type="text" size="30" value="name"><br>
+      E-mail: <input type="text" size="30"><br>
+      Date of birth: <input type="text" size="10">
+    </fieldset>
+  </form>
+  <pre>
+  Get
+      URL 改变，在URL 里显示 HTML Form 参数的 name/value 值。
+      只适合有少量参数的 HTML Form，因为 URL 长度有字符限制，不能无限长。
+      涉及安全性的信息，比如用户密码，不能用 get，因为会在 URL 上显示，不安全。
+  Post
+      URL 不改变，不在 URL 里显示 HTML Form 的数据。
+      Form 提交的信息没有长度限制。
+      涉及安全性的信息，如用户密码，应采用 post 方式。
+  </pre>
+</body>
+</html>

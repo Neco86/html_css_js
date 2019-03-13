@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<p id="demo">
+JavaScript can react to events. Like the click of a button.
+</p>
+
+<script>
+function myFunction1()
+{
+document.getElementById("demo").innerHTML="Hello JavaScript!";
+}
+function myFunction2()
+{
+	x=document.getElementById("demo") // 找到元素
+	x.style.color="#ff0000";          // 改变样式
+}
+</script>
+
+<button type="button" onclick="myFunction1()">myFunction1</button>
+<button type="button" onclick="myFunction2()">myFunction2</button>
+<a href="https://www.w3cschool.cn/html/html-entities.html">字符</a>
+<br>
+<object width="400" height="50" data="https://www.w3cschool.cn/statics/demosource/bookmark.swf"></object>
+<br>
+<embed width="400" height="50" src="https://www.w3cschool.cn/statics/demosource/bookmark.swf">
+<br>
+<audio controls>
+  <source src="https://www.w3cschool.cn/statics/demosource/horse.mp3" type="audio/mpeg">
+  <source src="https://www.w3cschool.cn/statics/demosource/horse.ogg" type="audio/ogg">
+  Your browser does not support this audio format.
+</audio>
+<audio controls height="100" width="100">
+  <source src="https://www.w3cschool.cn/statics/demosource/horse.mp3" type="audio/mpeg">
+  <source src="https://www.w3cschool.cn/statics/demosource/horse.ogg" type="audio/ogg">
+  <embed height="50" width="100" src="horse.mp3">
+</audio>
+<br>
+
+<p><a href="https://www.w3cschool.cn/statics/demosource/horse.mp3">Play mp3</a></p>
+<p><a href="https://www.w3cschool.cn/statics/demosource/liar.wav">Play wav</a></p>
+
+<script src="//mediaplayer.yahoo.com/latest"></script>
+<br>
+<a href="https://www.w3cschool.cn/html/html-code.html">常用代码</a>
+</body>
+</html>
