@@ -1,0 +1,11 @@
+CACHE MANIFEST #必须内容
+# 2012-02-21 v1.0.0 注释
+/theme.css
+/logo.gif
+/main.js
+
+NETWORK:
+login.php #可以使用星号来指示所有其他其他资源/文件都需要因特网连接
+
+FALLBACK:
+/html/ /offline.html

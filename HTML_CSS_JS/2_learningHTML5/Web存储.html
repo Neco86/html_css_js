@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>HTML5 web 存储，一个比cookie更好的本地存储方式。</p>
+    <p>localStorage 对象存储的数据没有时间限制。第二天、第二周或下一年之后，数据依然可用。</p>
+    <p>sectionStroge 当用户关闭浏览器窗口后，数据会被删除。</p>
+    <div id="result"></div>
+    <script>
+        if (typeof(Storage) !== "undefined") {
+            // 是的! 支持 localStorage  sessionStorage 对象!
+            localStorage.sitename = "W3Cschool在线教程";//sitename为自定义字符串
+            document.getElementById("result").innerHTML = "网站名：" + localStorage.sitename;
+            // 保存数据： localStorage.setItem(key, value);
+            // 读取数据： localStorage.getItem(key);
+            // 删除单个数据： localStorage.removeItem(key);
+            // 删除所有数据： localStorage.clear();
+            // 得到某个索引的key： localStorage.key(index);
+
+        } else {
+            // 抱歉! 不支持 web 存储。
+        }
+    </script>
+</body>
+
+</html>
