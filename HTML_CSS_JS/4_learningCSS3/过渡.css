@@ -1,0 +1,13 @@
+div
+{
+	width:100px;
+	height:100px;
+	background:red;
+	transition:width 2s;/*宽度属性的过渡效果，时长为 2 秒*/
+	-webkit-transition:width 2s; /* Safari */
+}
+
+div:hover
+{
+	width:300px;
+}

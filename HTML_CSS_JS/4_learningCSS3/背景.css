@@ -1,0 +1,24 @@
+/*
+background-image添加背景图片
+background-size指定背景图像的大小
+background-origin指定了背景图像的位置区域/content-box, padding-box,和 border-box区域内可以放置背景图像。
+background-clip背景剪裁
+*/
+#example1 {
+background-image: url(img_flwr.gif), url(paper.gif);
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;
+}
+div
+{
+background:url(img_flwr.gif);
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-origin:content-box;
+}
+#example2 {
+border: 10px dotted black;
+padding: 35px;
+background: yellow;
+background-clip: content-box;
+}

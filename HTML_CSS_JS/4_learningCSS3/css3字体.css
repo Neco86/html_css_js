@@ -1,0 +1,12 @@
+/*自定义字体*/
+@font-face
+{
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+   /*使用粗体*/
+   /* font-weight:bold; */
+}
+div
+{
+   font-family:myFirstFont;
+}
